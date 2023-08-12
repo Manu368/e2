@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100;200;300;400;500;600;700;800;900&family=Dancing+Script:wght@400;500;600;700&family=Jost:wght@100;200;300;400;500;600;700;800;900&family=Lato:wght@100;300;400;700;900&family=Libre+Franklin:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&family=Russo+One&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bg-container01{
+    background-color: #FF6A00;
+    background-size: cover;
+    height:40vh;
+}
+.logo01{
+    width:250px;
+}
+.mini-container{
+    background-color: #fff;
+    width:100%;
+    height: 500px;
+}
+.heading01{
+    color: #FF6A00;
+    font-style: italic;
+    font-family: 'Dancing Script', cursive;
+    font-size: 52px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-style:inherit;
+}
+.span01{
+    font-family: "Roboto";
+    font-style: normal;
+    margin-left: 15px;
+}
+.heading02{
+    text-align: center;
+    color:#000;
+    font-weight: 600;
+    font-size: 25px;
+    padding: 0px 10px 0px 10px;
+}
+.bg-container02 {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+}
+
+.bg-container02::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("https://res.cloudinary.com/dqrttxm5s/image/upload/v1691836139/logo1-4d1d5aa4_hq4vp8.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.2;
+}
+
+.button01 {
+    background-color: #FF6A00;
+    padding: 15px;
+    opacity: 1;
+    border: 0px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 50px;
+    width: 200px;
+}
+.para01{
+    text-align: center;
+    font-size: 20px;
+}
+.para02{
+    
+    font-size: 20px;
+    
+}
+.para03{
+    color:#FF6A00;
+    font-size: 20px;
+    
+}
